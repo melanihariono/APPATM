@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCA28"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Pilihan Transaksi" />
+
+    <Button
+        android:id="@+id/btnceksaldo"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textView3"
+        android:text="&lt;-- Cek Saldo" />
+
+    <Button
+        android:id="@+id/btnsetor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnexit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Penyetoran -->" />
+
+    <Button
+        android:id="@+id/btntarik"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnceksaldo"
+        android:layout_gravity="center_horizontal"
+        android:layout_toLeftOf="@+id/textView3"
+        android:text="&lt;-- Penarikan" />
+
+    <Button
+        android:id="@+id/btntransfer"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnsetor"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/btnsetor"
+        android:layout_alignTop="@+id/btntarik"
+        android:layout_gravity="center_horizontal"
+        android:text="Transfer -->" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnceksaldo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="42dp"
+        android:text="Keluar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/tangaan" />
+
+</RelativeLayout>

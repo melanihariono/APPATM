@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">APPATM_Melani</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Cek Saldo!</string>
+    <string name="slide_1_desc">Cara Mudah Untuk Mengecek Saldo Anda!</string>
+
+    <string name="slide_2_title">Pilihan Bank</string>
+    <string name="slide_2_desc">"Memilih Bank Sesuai Dengan Kepercayaan Anda !"</string>
+
+    <string name="slide_3_title">Setor Uang</string>
+    <string name="slide_3_desc">Kini Setor Uang Tidak Perlu Repot</string>
+
+    <string name="slide_4_title">Penarikan Uang</string>
+    <string name="slide_4_desc">Menarik Uang Dengan Sekali KLIK !</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
